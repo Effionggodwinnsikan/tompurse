@@ -1,0 +1,37 @@
+/*.nav_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .nav_link:not(:last-child) {
+    width: 5rem;
+    margin-left:3rem;
+    
+}
+  .nav_link:last-child{
+    margin-left: 70px;
+
+  }
+  .nav_li:last-of-type{
+    margin-left: 150px;
+  }
+  
+  .nav_link {
+  text-decoration: none;
+  color: #0000FF;
+  font-size: 16px;
+  font-family: "inter";
+  font-weight: normal;
+  
+  
+
+  
+}
+.nav_li:hover{
+
+  text-decoration: underline;
+}

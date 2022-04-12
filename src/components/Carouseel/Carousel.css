@@ -1,0 +1,226 @@
+.carousel{
+    display:flex;
+    background:#ffffff;
+    width: 100%;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    
+    
+}
+.cars{
+    height: 750px;
+    
+
+}
+.tog{
+    display:flex;
+    text-align:center;
+    margin-left: 370px;
+}
+.lessthan{
+    margin-top: 65px;
+    margin-right: 70px;
+    color: rgba(2, 43, 105, 1);
+}
+.greaterthan{
+    margin-top: 65px;
+    margin-left: 70px;
+    color: rgba(2, 43, 105, 1);
+}
+ .car1{
+     margin-top:70px;
+     font-family: "Inter";
+     font-size: 36px;
+     font-weight: 500;
+     line-height: 44px;
+     letter-spacing: 0em;
+     text-align: center;
+     color: rgba(2, 43, 105, 1);
+
+
+     
+ }
+.cc1{
+    width:268.24px;
+    height:215.48px;
+    margin:200px 400px 100px 400px;
+    background:#ffffff;
+    border-radius:44.7813px;
+    box-shadow:0px 6.49492px 12.9898px rgba(0,0,0,0.4), 0px 1.29898px 3.89695px
+     rgba(0,0,0,0.4), 0px 0px 0.649492px rgba(0,0,0,0.4);
+     transform: rotate(-11deg);
+    
+    
+}
+.cc2{
+    width:268.24px;
+    height:215.48px;
+    margin:200px 650px 100px 650px;
+    background:#ffffff;
+    border-radius:44.7813px;
+    box-shadow:0px 6.0968px 12.1936px rgba(0,0,0,0.4), 0px 1.21936px 3.65808px
+     rgba(0,0,0,0.4), 0px  0px .60968px rgba(0,0,0,0.4);
+     transform: rotate(-10deg);
+    
+}
+.cc3{
+    width:268.24px;
+    height:215.48px;
+    margin:200px 700px 100px 700px;
+    background:#ffffff;
+    border-radius:44.7813px;
+    box-shadow:0px 6.49492px 12.9898px rgba(0,0,0,0.4), 0px 1.29898px 3.89695px
+     rgba(0,0,0,0.4), 0px  0px 0.649492px rgba(0,0,0,0.4);
+     transform: rotate(-12deg);
+    
+}
+
+.cc3>p{
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(83, 84, 97, 1);
+    width: 202px;
+    margin:20px 50px 50px 50px;
+    
+
+
+
+}
+
+.cc3>h6{font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0em;
+  text-align: center;
+  color: rgba(61, 61, 70, 1);
+  margin-top: 5px;
+
+ }
+ .cc5{
+
+}
+.lg4{
+   
+    margin-top:120px;
+    transform: rotate(-180deg);
+    z-index: -10;
+    
+    
+   
+}
+.lg5{
+   
+    margin-top:150px;
+    transform: rotate(-180deg);
+    z-index: +10;
+    
+   
+}
+.cc1>p{
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(83, 84, 97, 1);
+    width: 202px;
+    margin:20px 50px 50px 50px;
+    
+
+
+
+}
+
+.cc1>h6{font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0em;
+  text-align: center;
+  color: rgba(61, 61, 70, 1);
+  margin-top: 5px;
+
+ }
+ .cc2>p{
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(83, 84, 97, 1);
+    width: 202px;
+    margin:20px 50px 50px 50px;
+    
+
+
+
+}
+
+.cc2>h6{font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0em;
+  text-align: center;
+  color: rgba(61, 61, 70, 1);
+  margin-top: 5px;
+
+}
+ .cc3>p{
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(83, 84, 97, 1);
+    width: 202px;
+    margin:20px 50px 50px 50px;
+    
+
+
+
+}
+
+.cc3>h6{font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0em;
+  text-align: center;
+  color: rgba(61, 61, 70, 1);
+  margin-top: 5px;
+
+ }
+ @media (max-width:1024px){
+    
+    .tog{
+        margin-left: 0px;
+        justify-content:center;
+         }
+ }
+ @media (max-width:768px){
+    .tog{
+        margin-right: 70px;
+        justify-content:center;
+    }
+
+ }
+ 
+ @media (max-width: 885px) {
+    .cc1{
+        margin-right:550px;
+        margin-left:550px;
+    }
+    .tog{
+        margin-left: 90px;
+    }
+} 
