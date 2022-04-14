@@ -43,14 +43,14 @@
 .label>label{
     margin-right:250px;
     font-size: 14px;
-    font-family:" gotham pro";
+    font-family:" poppins";
     color: #B2BED0;
 
 }
 .login-header{
     color: #022B69;
     font-size:30px;
-    font-family:"gotham pro" ;
+    font-family:"poppins" ;
     font-weight:700 ;
 
 }
@@ -66,7 +66,7 @@
 }
 .welcome>h4{
     color: #022B69;
-    font-family: Gotham Pro;
+    font-family:"poppins";
     font-size: 48px;
     font-weight: 700;
     line-height: 46px;
@@ -79,7 +79,7 @@
 .welcome>h5{
     color: #B2BED0;
 
-    font-family: Gotham Pro;
+    font-family: "poppins";
     font-size: 52px;
     font-weight: 700;
     line-height: 46px;

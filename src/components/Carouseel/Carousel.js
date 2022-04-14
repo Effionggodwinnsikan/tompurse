@@ -110,3 +110,35 @@ export default class AutoPlay extends Component {
 // }
 
 // export default Carousel;
+{/* <div class="section7-div4carousel">
+                <div class="item item-1">
+                    <div>
+                        <img src="./images/avatar1.svg" />
+                        <h5>Kolawole Tobi</h5>
+                        <img src="./images/quotes.svg" />
+                        <p>
+                            Ultricies quis commodo ac at sed at sagittis risus ultrices. A rhoncus in adipiscing malesua.
+                        </p>
+                    </div>
+                </div>
+                <div class="item item-2">
+                    <div>
+                        <img src="./images/avatar2.svg" />
+                        <h5>Kolawole Tobi</h5>
+                        <img src="./images/quotes.svg" />
+                        <p>
+                            Ultricies quis commodo ac at sed at sagittis risus ultrices. A rhoncus in adipiscing malesua.
+                        </p>
+                    </div>
+                </div>
+                <div class="item item-3">
+                    <div>
+                        <img src="./images/avatar3.svg" />
+                        <h5>Kolawole Tobi</h5>
+                        <img src="./images/quotes.svg" />
+                        <p>
+                            Ultricies quis commodo ac at sed at sagittis risus ultrices. A rhoncus in adipiscing malesua.
+                        </p>
+                    </div>
+                </div>
+            </div> */}
