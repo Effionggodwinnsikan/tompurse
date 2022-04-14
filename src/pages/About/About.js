@@ -42,7 +42,7 @@ function About() {
                 dictum enim vestibulum adipiscing.
               </p>
             </div>
-            <div> 
+            <div className="man"> 
               <img src={Logo} alt="man"/>
             </div>
           </div>

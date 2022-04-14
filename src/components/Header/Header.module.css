@@ -28,10 +28,10 @@
     height: 100%; 
   }
   .Slider{
-    position:fixed;
+    position:fixed; 
     min-width: 20%;
     height: 20vh;
-    top: -100%;
+    top: 100%;
     background-color: #FFFFFF;
     transition: 1sec ease;
   }
@@ -45,6 +45,7 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
+    
   }
   .Slider ul {
     display:flex;
@@ -63,18 +64,18 @@
     color: #0000FF;
 }
   .Slider_link:last-child{
-    margin-left: 80px;
+    margin-left:50px;
     color: #0000FF;
   }
   .Slider_li:last-of-type{
-    margin-left: 310px;
+    margin-left: 210px;
     color: #0000FF;
     list-style: none; 
     text-decoration: none;
   }
   .Slider_b a{
     color: #0000FF;
-    margin-left: 210px;
+    margin-left: 510px;
     list-style: none; 
     text-decoration: none;
     font-family: "inter";
@@ -156,10 +157,35 @@
       height: 100%;
     }
     .Slider_ul{
-      width: 20%;
+      display:none;
+    }
+    .active{
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 30px;
+      background-color: white;
+      width: 50vw;
+      justify-content: center;
+      align-items: center;
+      right: 0;
+      margin: auto;
+      height:100vh;
+      border-radius: 20px 0px 20px 20px
+    }
+    .active .Slider_ul{
+      width: 100%;
       transition: 1sec ease;
-      display: none;
+      display: flex;
+      flex-direction: column;
+      text-align:center;
+      margin:  auto;   
+      gap: 50px;   
     } 
+    .Slider_link:last-child{
+      margin-left: 0px;
+      
+    }
     
    
     .Slider_link:not(:last-child) {
@@ -169,15 +195,19 @@
   }
     
     
-    .Slider_link {
+    .Slider_b{
     text-decoration: none;
     color: #0000FF;
-  
-    
-    
-  
-    
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
   }
+  .Slider_b a{
+    margin: auto;
+  }
+
   .Slider_ul {
   margin-block: .5rem;
   margin-inline:2rem ;
@@ -194,7 +224,7 @@
   .Closed{
     display:flex;
     cursor: pointer;
-    justify-content: flex-start;
+    justify-content:flex-end;
     width: 100%;
     color: #0000FF;
   }
@@ -218,6 +248,27 @@
   .Header_logo>img{
     width:800%;
     height: 200%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+  }
+  @media (max-width:425px){
+    .Header_logo>img{
+      width:150px;
+      margin-top: -30px;
+
+    }
+    .Header_container{
+      height: 70px;
+    }
+
+  }
+  .MenuIcon .Menu{
+    width: 100px;
+    margin-left: 0px;
+     margin-right:0px
+  }
+  .Closed{
+    width: 100px;
+    margin-left: -1px;
+    margin-right: -100px;
   }
  }

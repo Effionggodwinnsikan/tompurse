@@ -11,18 +11,19 @@ import Logo7 from "../../asset/greater than.svg"
 import "./Carousel.css"; 
 import React, { Component } from "react";
 import Slider from "react-slick";
+export default class AutoPlay extends Component {
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      cssEase: "linear"
+    };
 
-export default class Carousel extends Component {
-   render() {
-     const settings = {
-       dots: true,
-       infinite: true,
-       slidesToShow: 3,
-       slidesToScroll: 1,
-       autoplay: true,
-       autoplaySpeed: 2000,
-       pauseOnHover: true
-     };
      return (
       <div className="cars" >
          <div className="tog"> 

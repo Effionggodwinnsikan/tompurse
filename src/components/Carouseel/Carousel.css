@@ -223,4 +223,19 @@
     .tog{
         margin-left: 90px;
     }
-} 
+}   @media (max-width: 425px){
+    .tog{
+        width:600px;
+        margin-left:-90px;
+        font-size: 1px;
+        align-items: center;
+
+
+    }
+    .caarousel{
+        align-items: center;
+        padding: 100px 70px 100px 70px ;
+    }
+       
+    
+}

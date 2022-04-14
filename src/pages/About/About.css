@@ -284,3 +284,267 @@
     
     
 }
+
+
+
+
+
+
+@media (max-width: 1024px){
+   .man{ 
+       margin-left: 190px;
+   }
+   .about-h3{
+    margin-left: 310px;
+   }
+}
+@media (max-width: 768px){
+    .introb{
+      
+       
+        margin-left:-250px;
+        
+    }
+    
+    .introb1{
+       
+        margin-left: 204px;
+       
+       
+    
+    
+    }
+    .man{ 
+        margin-left: 30px;
+    }
+    
+    .card-cover{
+       
+        height: 551px;
+       
+    
+        
+        
+    
+    }
+    .about-card{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        margin-top: 70px;
+    }
+    .about-h3  {
+        font-size:28px;
+        font-weight:400;
+        font-family:"inter";
+        font-style:bold;
+        line-height:44px;
+        width: 433px;
+        padding-top: 100px;
+        margin-left: 460px;
+         color:rgba(2, 43, 105, 1);
+       
+        
+        
+    
+        
+        
+    }
+    
+    .ac1{
+       
+        width: 220px;
+        height: 240px;
+       
+    }
+    .ac1>img{
+        width: 15%;
+        margin-left: 160px;
+        margin-top:20px;
+    }
+    .ac1>img:first-child{
+     margin-right: -190px;
+    }
+    .ac1>h6{
+        font-size:16px;
+         width: 100px;
+        
+    }
+    .ac1>p{
+        font-size:12px;
+        
+        margin-top: 15px;
+        width: 180px;
+    
+    }
+
+    .ac2{
+       
+        width: 220px;
+        height: 240px;
+       
+    }
+    .ac2>img{
+        width: 15%;
+        margin-left: 160px;
+        margin-top:20px;
+    }
+    .ac2>img:first-child{
+     margin-right: -190px;
+    }
+    .ac2>h6{
+        font-size:16px;
+         width: 100px;
+        
+    }
+    .ac2>p{
+        font-size:12px;
+        
+        margin-top: 15px;
+        width: 180px;
+    
+    }
+    .ac3{
+       
+        width: 220px;
+        height: 240px;
+       
+    }
+    .ac3>img{
+        width: 15%;
+        margin-left: 160px;
+        margin-top:20px;
+    }
+    .ac3>img:first-child{
+     margin-right: -190px;
+    }
+    .ac3>h6{
+        font-size:16px;
+         width: 100px;
+        
+    }
+    .ac3>p{
+        font-size:12px;
+        
+        margin-top: 15px;
+        width: 180px;
+    
+    }
+    .hd{
+       justify-content: center;
+       margin-left: -0px;
+       margin-left: 200px;
+    }
+    .about-h3{
+       margin-left:170px;
+    }
+    
+}
+@media (max-width: 768px){
+    .about-hero{
+        background: #ffffff;
+        width:100vw;
+        height:950px;
+    }
+    .about-intro>h3{
+        margin-top: 50px ;
+        font-size:30px;
+        width: 450px;
+        padding-right: 50px;
+        padding-left: 50px;
+       
+        
+    
+    }
+    .about-intro>p{
+        font-size:14px;
+        font-weight:400;
+        padding-right: 100px;
+        padding-left: 100px;
+        
+    }
+    .introb{
+        justify-content: center;
+        margin-top:0px;
+        flex-direction: column;   
+    }
+    .introb1>h6{
+        font-size:24px;
+        width: 255px;
+        margin-left: 124px;
+        margin-top: 20px;
+        text-align: center;
+    
+    
+    }
+    .introb1>p{
+        font-size:15px;
+        width: 233px;
+        margin-left: 134px;
+        text-align:center;
+    
+    
+    }
+    .man{ 
+        margin-right: -550px;
+        margin-top: 20px;
+    }
+    .about-h3{
+        margin-left: -10px;
+    }
+    .about-hero{
+        height:1150px;
+    }
+    .about-card{
+        flex-direction: column;
+        gap:20px;
+    }
+    .card-cover{
+       
+        height: 981px;
+       
+    
+        
+        
+    
+    }
+    .hd{
+        font-family: "Inter" ;
+        font-size: 30px;
+        margin-left: -0px;
+        width:300px;
+        margin-left: 40px;
+    
+    
+    }
+    .real>h6{
+        font-size: 16px;
+
+        line-height: px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-right: 300px;
+        width: 167px;
+        color: rgba(2, 43, 105, 1);
+        margin-left: 40px;
+    }
+    .real>p{
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(26, 213, 254, 1);
+        margin-bottom: 15px;
+        margin-left: 40px;
+    
+        
+        
+    }
+    .wondering{
+        height:600px;
+    }
+    
+
+}
