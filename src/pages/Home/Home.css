@@ -285,7 +285,7 @@
     color: #3D3D46;
     width:300px;
     display: block;
-    font-family: "gotham pro";
+    font-family: "poppins";
     font-size: 14px;
     font-weight:400 ;
     line-height:13px;
@@ -336,7 +336,7 @@
 
 .sc1>h6{
     color: #022B69;
-    font-family: "Gotham pro";
+    font-family: "poppins";
     font-size:24px;
     font-weight:700;
     line-height:23px;
@@ -351,7 +351,7 @@
 .sc1>p{
     width:170px;
     font-size:16px;
-    font-family: "Gotham pro";
+    font-family: "poppins";
     line-height:19px;
     font-style: normal;
     font-weight:400;
@@ -385,7 +385,7 @@
 
 .sc2>h6{
     color: #022B69;
-    font-family: "Gotham pro";
+    font-family: "poppins";
     font-size:24px;
     font-weight:700;
     line-height:23px;
@@ -399,7 +399,7 @@
 }
 .sc2>p{
     width:170px;
-    font-family: "gotham pro";
+    font-family: "poppins";
     font-size:16px;
     line-height:19px;
     font-style: normal;
@@ -440,7 +440,7 @@
 
 .sc3>h6{
     color: #022B69;
-    font-family: "Gotham pro";
+    font-family: "poppins";
     font-size:24px;
     font-weight:700;
     line-height:23px;
@@ -455,7 +455,7 @@
 .sc3>p{
     width:170px;
     font-size:16px;
-    font-family: "Gotham pro";
+    font-family: "poppins";
     line-height:19px;
     font-style: normal;
     font-weight:400;
@@ -513,7 +513,7 @@
     color: rgba(2, 43, 105, 1);  
 }
 .section5-text>p {
-    font-family: "Gotham Pro";
+    font-family: "poppins";
     font-size: 16px;
     font-weight: 400;
     line-height: 15px;
