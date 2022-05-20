@@ -1,0 +1,112 @@
+
+.section7 {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.section7-topdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.section7 h2 {
+    font-family: var(--inter-font);
+    font-weight: 500;
+    font-size: 2.5em;
+    color: #022b69;
+    text-align: center;
+}
+
+.section7-img1 {
+    margin-right: auto;
+    margin-left: 110px;
+   
+}
+
+.section7-img2 {
+    margin-left: auto;
+    margin-right: 110px;
+}
+
+.section7-div3dot {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.section7-div4carousel {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.item img:first-of-type {
+    margin: 0 auto;
+    display: block;
+}
+
+.item img:last-of-type {
+    margin: 0 auto;
+    display: block;
+}
+
+.item h5 {
+    text-align: center;
+    font-family: var(--inter-font);
+    font-weight: 500;
+    font-size: 16.4423px;
+    color: #3d3d46;
+    padding: 12px 0;
+}
+
+.item p {
+    text-align: center;
+    font-family: var(--inter-font);
+    font-size: 12.7885px;
+    color: #535461;
+    padding: 20px 40px 20px 20px;
+
+}
+
+.item-1 {
+    width: 350.24px ,330.24px;
+    height: 235.48px , 215.48px;
+    background-image: url(../../asset/rectangle-white2.png), url(../../asset/rectangle-blue1.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, contain;
+    background-position: left, right;
+    
+    
+  
+}
+
+
+.item-2 {
+    width: 276.47px;
+    height: 155.62px;
+    background-image: url(../../asset/rectangle-white2.png), url(../../asset/rectangle-blue2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, contain;
+    background-position: right, top;
+}
+
+.item-3 {
+    width: 320.16px;
+    height: 157.93px;
+    background-image: url(../../asset/rectangle-white2.png), url(../../asset/rectangle-blue3.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, contain;
+    background-position: right, right;
+}
+
+.item-1 img:first-of-type {
+    margin-top: 0px;
+    width: 35%;
+}
+
+.item-1 p {
+    padding: 20px 10px 20px 40px;
+}

@@ -168,3 +168,87 @@
 .p5{
 margin-bottom: 90px;
 }
+
+
+@media (max-width: 768px){
+    .invest-1>img{
+        margin-left:0px;
+        margin-right:50px;
+    }
+    
+    .invest-1a>h6{
+        margin-left: 120px;
+        
+        
+    }
+    .invest-1a>p{
+        font-size: 10px;
+        font-weight: 400;
+        width:333px;
+        margin-left: 120px;
+    }
+    .invest-intro>h3{
+        font-size: 40px;
+        margin-left: 150px;
+    
+        
+    }
+    .invest-intro>p{
+        font-size: 16px;
+        margin-left:220px;
+    
+    }
+   
+    .savings>h6{
+        font-size: 24px;
+        margin-left: 95px;
+    
+         
+    }
+   
+}
+@media (max-width: 425px){
+    .invest-1>img{
+        margin-left:90px;
+        margin-top: 20px;
+        width: 70%;
+    }
+    .invest-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .invest-1a>h6{
+        margin-left: 50px;
+        
+        
+    }
+    .invest-1a>p{
+        font-size: 10px;
+        font-weight: 400;
+        width:333px;
+        margin-left: 30px;
+    }
+    .invest-intro>h3{
+        font-size: 30px;
+        margin-left: 10px;
+        width: 400px;
+    
+        
+    }
+    .invest-intro>p{
+        font-size: 16px;
+        margin-left:50px;
+        width:340px;
+    }
+   
+    .savings>h6{
+        font-size: 24px;
+        margin-left: 38px;
+        width:300px;
+         
+    }
+   
+   .savings{
+       margin-right: 50px;
+   }
+}

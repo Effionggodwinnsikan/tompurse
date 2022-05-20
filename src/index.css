@@ -24,3 +24,13 @@
     --font-family-primary:"inter";
     --font-family-secondary:"poppins";
   }
+
+  .slick-vertical .slick-slide
+{
+    display: block;
+
+    height: 400px, auto;
+
+    border: 1px solid transparent;
+    background: red;
+}

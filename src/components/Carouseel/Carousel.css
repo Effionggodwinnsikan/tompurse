@@ -1,3 +1,8 @@
+.cars{
+    height: 750px;
+    
+}
+
 .carousel{
     display:flex;
     background:#ffffff;
@@ -8,234 +13,238 @@
     
     
 }
-.cars{
-    height: 750px;
-    
-
-}
 .tog{
     display:flex;
-    text-align:center;
-    margin-left: 370px;
+    width: 50%;
+    margin: 60px auto;
 }
 .lessthan{
-    margin-top: 65px;
-    margin-right: 70px;
     color: rgba(2, 43, 105, 1);
 }
 .greaterthan{
-    margin-top: 65px;
-    margin-left: 70px;
     color: rgba(2, 43, 105, 1);
 }
- .car1{
-     margin-top:70px;
-     font-family: "Inter";
-     font-size: 36px;
+.car1{
+    font-family: "Inter";
+    font-size: 36px;
      font-weight: 500;
-     line-height: 44px;
+     line-height: 30px;
      letter-spacing: 0em;
-     text-align: center;
      color: rgba(2, 43, 105, 1);
 
 
      
- }
-.cc1{
-    width:268.24px;
-    height:215.48px;
-    margin:200px 400px 100px 400px;
-    background:#ffffff;
-    border-radius:44.7813px;
-    box-shadow:0px 6.49492px 12.9898px rgba(0,0,0,0.4), 0px 1.29898px 3.89695px
-     rgba(0,0,0,0.4), 0px 0px 0.649492px rgba(0,0,0,0.4);
-     transform: rotate(-11deg);
-    
-    
-}
-.cc2{
-    width:268.24px;
-    height:215.48px;
-    margin:200px 650px 100px 650px;
-    background:#ffffff;
-    border-radius:44.7813px;
-    box-shadow:0px 6.0968px 12.1936px rgba(0,0,0,0.4), 0px 1.21936px 3.65808px
-     rgba(0,0,0,0.4), 0px  0px .60968px rgba(0,0,0,0.4);
-     transform: rotate(-10deg);
-    
-}
-.cc3{
-    width:268.24px;
-    height:215.48px;
-    margin:200px 700px 100px 700px;
-    background:#ffffff;
-    border-radius:44.7813px;
-    box-shadow:0px 6.49492px 12.9898px rgba(0,0,0,0.4), 0px 1.29898px 3.89695px
-     rgba(0,0,0,0.4), 0px  0px 0.649492px rgba(0,0,0,0.4);
-     transform: rotate(-12deg);
-    
-}
-
-.cc3>p{
-    font-family: "Inter";
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: rgba(83, 84, 97, 1);
-    width: 202px;
-    margin:20px 50px 50px 50px;
-    
-
-
-
-}
-
-.cc3>h6{font-family: "Inter";
-  font-size: 16px;
-  font-weight: 500;
-   line-height: 20px;
-   letter-spacing: 0em;
-  text-align: center;
-  color: rgba(61, 61, 70, 1);
-  margin-top: 5px;
-
- }
- .cc5{
-
-}
-.lg4{
-   
-    margin-top:120px;
-    transform: rotate(-180deg);
-    z-index: -10;
-    
-    
-   
-}
-.lg5{
-   
-    margin-top:150px;
-    transform: rotate(-180deg);
-    z-index: +10;
-    
-   
-}
-.cc1>p{
-    font-family: "Inter";
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: rgba(83, 84, 97, 1);
-    width: 202px;
-    margin:20px 50px 50px 50px;
-    
-
-
-
-}
-
-.cc1>h6{font-family: "Inter";
-  font-size: 16px;
-  font-weight: 500;
-   line-height: 20px;
-   letter-spacing: 0em;
-  text-align: center;
-  color: rgba(61, 61, 70, 1);
-  margin-top: 5px;
-
- }
- .cc2>p{
-    font-family: "Inter";
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: rgba(83, 84, 97, 1);
-    width: 202px;
-    margin:20px 50px 50px 50px;
-    
-
-
-
-}
-
-.cc2>h6{font-family: "Inter";
-  font-size: 16px;
-  font-weight: 500;
-   line-height: 20px;
-   letter-spacing: 0em;
-  text-align: center;
-  color: rgba(61, 61, 70, 1);
-  margin-top: 5px;
-
-}
- .cc3>p{
-    font-family: "Inter";
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: rgba(83, 84, 97, 1);
-    width: 202px;
-    margin:20px 50px 50px 50px;
-    
-
-
-
-}
-
-.cc3>h6{font-family: "Inter";
-  font-size: 16px;
-  font-weight: 500;
-   line-height: 20px;
-   letter-spacing: 0em;
-  text-align: center;
-  color: rgba(61, 61, 70, 1);
-  margin-top: 5px;
-
- }
- @media (max-width:1024px){
-    
-    .tog{
-        margin-left: 0px;
-        justify-content:center;
-         }
- }
- @media (max-width:768px){
-    .tog{
-        margin-right: 70px;
-        justify-content:center;
     }
+    .item- img:first-of-type {
+        margin: 0 auto;
+        display: block;
+        
+}
 
+.item img:last-of-type {
+    margin: 0 auto;
+    display: block;
+}
+
+.item h5 {
+    text-align: center;
+    font-family: var(--inter-font);
+    font-weight: 500;
+    font-size: 16.4423px;
+    color: #3d3d46;
+    padding: 12px 0;
+}
+
+.item p {
+    text-align: center;
+    font-family: var(--inter-font);
+    font-size: 12px;
+    color: #535461;
+    padding: 20px 45px 20px 20px;
+    width: 300px;
+
+}
+.caro-slides{
+   background: url(../../asset/rectangle-blue1.png);
+   background-repeat: no-repeat, no-repeat;
+   width:20%;
+   position: relative;
+   z-index:-1;
+}
+
+.item-1 {
+    width: 320.24px ;
+    background-image: url(../../asset/rectangle-white2.png);
+    height: 235.48px ;
+    background-repeat: no-repeat, no-repeat;
+    margin: 20px;
+    z-index: +1;
+   
+    
+  
+}
+.caro-slides1{
+    background: url(../../asset/rectangle-blue3.png);
+    background-repeat: no-repeat, no-repeat;
+    width:20%;
+    position: relative;
+    z-index: -1;
+    margin-left: 40px;
+    
  }
- 
- @media (max-width: 885px) {
-    .cc1{
-        margin-right:550px;
-        margin-left:550px;
-    }
-    .tog{
-        margin-left: 90px;
-    }
-}   @media (max-width: 425px){
-    .tog{
-        width:600px;
-        margin-left:-90px;
-        font-size: 1px;
-        align-items: center;
+.item-2 {
+   width: 320.24px,;
+    background-image: url(../../asset/rectangle-white2.png);
+    background-repeat: no-repeat, no-repeat;
+   height:235.48px;
+   z-index: +1;
+   background-position: center;
+  
+}
+.caro-slides2{
+    background: url(../../asset/rectangle-blue3.png);
+    background-repeat: no-repeat, no-repeat;
+    width:20%;
+    background-position: center;
+    z-index: -1;
+      margin-left: -30px;  
+     
+ }
+
+.item-3 {
+    width: 320.24px;
+    height: 235.48px;
+    background-image: url(../../asset/rectangle-white2.png);
+    background-repeat: no-repeat, no-repeat;
+    margin-bottom: 20px; 
+    z-index: +1;
+    background-position: center;
+    
+    
+}
 
 
+.item-1 img:first-of-type {
+    margin-top: 0px;
+    width: 15%;
+}
+
+.item-1 p {
+    padding: 20px 10px 20px 40px;
+    width:80%
+}
+
+
+.item-2 p {
+    padding: 20px 10px 20px 40px;
+    width:80%
+}
+
+.item-3 p {
+    padding: 20px 10px 20px 40px;
+    width:80%
+}
+
+
+
+
+@media (max-width: 768px) {
+   
+    .caro-slides2{
+        background: url(../../asset/rectangle-blue3.png);
+        background-repeat: no-repeat, no-repeat;
+        width:20%;
+      
+        background-position:  right ;
+        z-index: -1;
+          margin-left: -30px;  
+         
+     }
+    
+    .item-3 {
+        width: 320.24px;
+        height: 235.48px;
+        background-image: url(../../asset/rectangle-white2.png);
+        background-repeat: no-repeat, no-repeat;
+     
+        margin-bottom: 20px; 
+        z-index: +1;
+        background-position: center center;
+        
+        
     }
+} 
+
+
+
+
+@media (max-width: 425px){
+
+   
     .caarousel{
         align-items: center;
         padding: 100px 70px 100px 70px ;
     }
        
+    .car1{
+        font-size: 20px;
+        
+    }  
+   
+    .caro-slides2{
+        background: url(../../asset/rectangle-blue3.png);
+        background-repeat: no-repeat, no-repeat;
+        width:20%;
+      
+        background-position: center;
+        z-index: -1;
+          margin-left: -30px;  
+         
+     }
+    
+    .item-3 {
+        width: 320.24px;
+        height: 235.48px;
+        background-image: url(../../asset/rectangle-white2.png);
+        background-repeat: no-repeat, no-repeat;
+     
+        margin-bottom: 20px; 
+        z-index: +1;
+        background-position: center;
+        
+        
+    }
     
 }
+
+
+
+@media (max-width: 375px) {
+    .car1{
+        font-size: 16px;
+       
+    }  
+  
+    .caro-slides2{
+        background: url(../../asset/rectangle-blue3.png);
+        background-repeat: no-repeat, no-repeat;
+        width:20%;
+        background-position:right  ; 
+        z-index: -1;
+        
+         
+     }
+    
+    .item-3 {
+        width: 320.24px;
+        height: 235.48px;
+        background-image: url(../../asset/rectangle-white2.png);
+        background-repeat: no-repeat, no-repeat;
+        margin-bottom: 20px; 
+        z-index: +1;
+        background-position: center ;
+        
+        
+    }
+}  
+
